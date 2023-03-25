@@ -1,0 +1,43 @@
+/* App.css */
+
+.App {
+  text-align: center;
+
+}
+
+body {
+  background-color: #3E45EB;
+}
+
+header {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* background-color: blue; */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 4rem;
+  /* margin-left: 5rem; */
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+footer {
+  color: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: blue; */
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2);
+}
