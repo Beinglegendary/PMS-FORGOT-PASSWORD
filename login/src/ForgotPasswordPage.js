@@ -1,11 +1,11 @@
 import React from "react";
-import "./ForgotPassword.css";
+import "./ResetPassword.css";
 
 function ForgotPasswordPage() {
   return (
     <div className="modal-wrapper">
       <div className="modal-backdrop">
-        <div className="modal">
+        <div className="modal-1">
           <p>
             Forgot your password? Let us know your email address and we will
             email you a password reset link.{" "}
@@ -21,7 +21,7 @@ function ForgotPasswordPage() {
             />
 
             <button type="submit" className="submit-button">
-              Submit
+              Continue
             </button>
           </form>
         </div>
